@@ -9,6 +9,8 @@ Setup
 
     * mocha - npm install -g mocha (Terminal)
 
+Added Travis for and Heroku for continuos Integration and continous delpoyment Pipeline.
+
 Instructions
     I have implemented two options to send commands to the bus.   
         - The first option is to type in commands in command prompt.   
