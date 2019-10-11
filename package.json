@@ -4,6 +4,8 @@
   "description": "Bus simulator",
   "main": "index.js",
   "scripts": {
+    "start": "node app",
+    "file": "node app < sample.txt",
     "test": "nyc mocha"
   },
   "author": "Ayush Nigam",

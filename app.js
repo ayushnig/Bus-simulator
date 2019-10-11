@@ -20,7 +20,6 @@ readLine.on('line', (line) => {
   line = line.trim().toUpperCase();
   if (line.startsWith('PLACE ')) {
     result = placeCmd(line.substr(6));
-    console.log(`${result} place`);
     if (result === false) {
       console.log(`Invalid: ${line}`);
     }
