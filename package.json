@@ -1,0 +1,19 @@
+{
+  "name": "accordo-code-challenge",
+  "version": "1.0.0",
+  "description": "Bus simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Ayush Nigam",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
+}
